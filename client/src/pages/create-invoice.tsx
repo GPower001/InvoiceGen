@@ -36,7 +36,7 @@ export default function CreateInvoice() {
 
   const [invoiceNumber, setInvoiceNumber] = useState(generateInvoiceNumber());
   const [clientName, setClientName] = useState("");
-  const [companyName, setCompanyName] = useState("Glorywellness and Regenerative center");
+  const [companyName, setCompanyName] = useState("Omnix Labs");
   const [clientEmail, setClientEmail] = useState("");
   const [status, setStatus] = useState("pending");
   const [dueDate, setDueDate] = useState(() => {
